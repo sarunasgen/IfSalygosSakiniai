@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34616.47
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IfSalygosSakiniai", "IfSalygosSakiniai\IfSalygosSakiniai.csproj", "{1F68CECC-0F79-400E-89ED-BB08B10D1F8B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VeiksmaiSuString", "VeiksmaiSuString\VeiksmaiSuString.csproj", "{CE124D3D-9C50-406D-974E-8D58DC257163}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{1F68CECC-0F79-400E-89ED-BB08B10D1F8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F68CECC-0F79-400E-89ED-BB08B10D1F8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F68CECC-0F79-400E-89ED-BB08B10D1F8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE124D3D-9C50-406D-974E-8D58DC257163}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE124D3D-9C50-406D-974E-8D58DC257163}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE124D3D-9C50-406D-974E-8D58DC257163}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE124D3D-9C50-406D-974E-8D58DC257163}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

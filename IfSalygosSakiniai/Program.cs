@@ -11,13 +11,25 @@ namespace IfSalygosSakiniai
             Console.WriteLine("Iveskite B reiksme: ");
             int b = int.Parse(Console.ReadLine());
 
-            if(a > b)
+
+            Console.WriteLine("Iveskite C reiksme: ");
+            int c = int.Parse(Console.ReadLine());
+
+            if (a > b && c < a && c < b)
             {
-                Console.WriteLine("A daugiau uz B");
+                Console.WriteLine("A daugiau uz B ir C maziau uz A ir B");
             }
-            else if(a < b)
+            else if(a < b && a < c)
             {
-                Console.WriteLine("A maziau uz B");
+                Console.WriteLine("A maziau uz B ir C");
+            }
+            else if(c > a && c > b)
+            {
+                Console.WriteLine("C daugiau uz A ir B");
+            }
+            else if (c == a || c == b)
+            {
+                Console.WriteLine("C lygus A arba B");
             }
             else
             {
